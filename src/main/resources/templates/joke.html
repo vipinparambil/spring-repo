@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Joke</title>
 </head>
 <body>
-
+<h1>Todays Joke</h1>
+<p th:text="${joke}"></p>
 </body>
 </html>
